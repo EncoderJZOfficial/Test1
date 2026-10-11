@@ -102,7 +102,7 @@ gg.setRanges = function (...)
   return SetRanges(...)
 end
 
--- ===== Запуск чужого скрипта с правильным именем чанка =====
+
 local f = io.open(Menu[1], "r")
 if f then
     local code = f:read("*a")
